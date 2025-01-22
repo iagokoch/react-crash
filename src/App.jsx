@@ -1,6 +1,7 @@
 import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import HomeCards from "./components/HomeCards";
+import "./assets/css/style.css";
 
 const App = () => {
   return (
