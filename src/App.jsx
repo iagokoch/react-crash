@@ -5,8 +5,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
-import HomePage from "./Pages/HomePage";
-import JobsPage from "./pages/Jobs.Page";
+import HomePage from "./pages/HomePage";
+import JobsPage from "./pages/JobsPage";
 import NotFoundPage from "./components/NotFoundPage";
 
 const router = createBrowserRouter(
