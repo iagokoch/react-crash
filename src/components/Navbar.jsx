@@ -2,7 +2,7 @@ import logo from "../assets/images/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-black border-b border-red-700">
+    <nav className="bg-black border-b-2 border-red-700 ">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
