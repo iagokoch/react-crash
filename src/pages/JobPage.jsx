@@ -10,7 +10,7 @@ const JobPage = () => {
   return (
     <>
       <section>
-        <div className="container m-auto py-6 px-6">
+        <div className="container  m-auto py-6 px-6">
           <Link
             to="/jobs"
             className="text-red-500 hover:text-red-700 flex items-center"
@@ -20,12 +20,12 @@ const JobPage = () => {
         </div>
       </section>
 
-      <section className="bg-red-50">
+      <section className="bg-black">
         <div className="container m-auto py-10 px-6">
           <div className="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
             <main>
               <div className="bg-black p-6 rounded-lg shadow-md text-center md:text-left">
-                <div className="text-gray-400 mb-4">{job.type}</div>
+                <div className="text-#B9BAA3 mb-4">{job.type}</div>
                 <h1 className=" text-white text-3xl font-bold mb-4">
                   {job.title}
                 </h1>
